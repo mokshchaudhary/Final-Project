@@ -39,7 +39,6 @@ function findrecord(filename) {
 
 // Verify Signature ================================
 async function verifysignature(filename, signature) {
-    await sleep(getRandomInt(2) * 1000);
     var storedsignature = JsonStorage.get(filename);
     if (storedsignature == signature) {
         return 'True'
