@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8080;
 
-ServerList = ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3002', 'http://localhost:3003', 'http://localhost:3004']
+ServerList = ['http://52.66.27.131:8080', 'http://13.127.166.232:8080', 'http://13.234.10.227:8080', 'http://localhost:3003', 'http://localhost:3004']
 
 app.get("/", (req, res) => {
     sleep(1000).then(() => {

@@ -143,6 +143,7 @@ while True:
         print('\t [4] AWS EC2')
         print('\t [5] Docker')
         print('\t [6] Networking')
+        print('\t [7] Bash Programing')
         print(bcolors.ENDC)
 
         input('Press enter to continue ...')
